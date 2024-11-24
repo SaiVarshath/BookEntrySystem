@@ -1,0 +1,133 @@
+OUTPUT:
+Below is an example of how the program works with its input/output interaction at each step.
+
+---
+### **Initial Menu**
+Menu:
+1. Add Book
+2. List Books
+3. Borrow Book
+4. Return Book
+5. Register User
+6. List Users
+7. Exit
+Enter your choice:
+
+1. Adding a Book
+Input:
+
+Enter your choice: 1
+Enter Book ID: 101
+Enter Title: The Great Gatsby
+Enter Author: F. Scott Fitzgerald
+Enter Genre: Fiction
+
+Output:
+
+Book added successfully.
+```
+
+---
+
+2. Registering a User**
+Input:
+
+Enter your choice: 5
+Enter User ID: 1
+Enter Name: John Doe
+
+Output:
+
+User registered successfully.
+```
+
+---
+
+3. Listing All Books**
+Input:
+
+Enter your choice: 2
+
+Output:
+
+   ID                Title               Author         Genre       Status
+  101    The Great Gatsby     F. Scott Fitzgerald  Fiction   Available
+
+```
+
+---
+
+4. Borrowing a Book**
+Input:
+
+Enter your choice: 3
+Enter User ID: 1
+Enter Book ID to borrow: 101
+
+Output:
+
+Book borrowed successfully.
+```
+
+---
+
+5. Listing Users**
+Input:
+Enter your choice: 6
+
+Output:
+
+User ID: 1, Name: John Doe, Fine: $0
+Borrowed Books: 101
+```
+
+---
+
+6. Returning a Book**
+Input:
+
+Enter your choice: 4
+Enter User ID: 1
+Enter Book ID to return: 101
+ Output:
+
+Book returned successfully.
+```
+
+---
+
+7. Listing All Books (Again)**
+Input:
+
+Enter your choice: 2
+
+Output:
+
+   ID                Title               Author         Genre       Status
+  101    The Great Gatsby     F. Scott Fitzgerald  Fiction   Available
+```
+
+---
+
+8. Exiting**
+Input:
+
+Enter your choice: 7
+
+Output:
+
+Goodbye!
+```
+
+---
+
+Summary of Outputs
+1. **Add Book** - Confirms successful addition of a book.
+2. **Register User** - Confirms successful user registration.
+3. **List Books** - Displays books in a tabular format.
+4. **Borrow Book** - Confirms if the book was successfully borrowed.
+5. **List Users** - Displays user details, including borrowed books.
+6. **Return Book** - Confirms if the book was returned.
+7. **Exit** - Gracefully terminates the program.
+
+You can repeat the steps to handle multiple books and users!

@@ -1,0 +1,11 @@
+ABOUT THE PROJECT:
+
+The provided code is a **Library Borrowing System** implemented in C++. It manages books and users, allowing functionalities like adding books, registering users, borrowing, and returning books. Books have attributes such as `ID`, `title`, `author`, `genre`, and availability status, while users are identified by `ID`, name, borrowed books, and fines. The system uses file-based persistence to save and load book and user data from text files (`books.txt` and `users.txt`).
+
+Key features include:
+- Adding and listing books with availability status.
+- Registering users and maintaining their borrowing history.
+- Borrowing and returning books, updating statuses dynamically.
+- Persistent storage to retain data across program runs.
+
+Potential improvements include robust file parsing, enhanced user experience, fine calculation, and advanced search and filter capabilities. This system serves as a foundational library management tool with room for further enhancement.
